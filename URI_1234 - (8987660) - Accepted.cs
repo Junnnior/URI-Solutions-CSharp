@@ -23,15 +23,13 @@ class URI_1234 {
             if (tem_num == true){
                 if (entrada[j] == ' '){
                     lista_final += ' ';
-                }
-            
-                else if (i % 2 != 0){
+                
+                } else if (i % 2 != 0){
                     var letra_Maiuscula = char.ToUpper(entrada[j]);
                     lista_final+= letra_Maiuscula;
                     i ++;
-                }
-            
-                else if (i % 2 == 0){
+                
+                } else if (i % 2 == 0){
                     var letra_Minuscula = char.ToLower(entrada[j]);
                     lista_final+=letra_Minuscula;
                     i ++;
